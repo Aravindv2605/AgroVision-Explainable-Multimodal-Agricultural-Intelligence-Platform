@@ -1,0 +1,326 @@
+region_id,district,state,crop_label
+Thanjavur_Tamil_Nadu,Thanjavur,Tamil Nadu,rice
+Thanjavur_Tamil_Nadu,Thanjavur,Tamil Nadu,rice
+Thanjavur_Tamil_Nadu,Thanjavur,Tamil Nadu,rice
+Thanjavur_Tamil_Nadu,Thanjavur,Tamil Nadu,rice
+Thanjavur_Tamil_Nadu,Thanjavur,Tamil Nadu,rice
+Coimbatore_Tamil_Nadu,Coimbatore,Tamil Nadu,turmeric
+Coimbatore_Tamil_Nadu,Coimbatore,Tamil Nadu,turmeric
+Coimbatore_Tamil_Nadu,Coimbatore,Tamil Nadu,turmeric
+Coimbatore_Tamil_Nadu,Coimbatore,Tamil Nadu,turmeric
+Coimbatore_Tamil_Nadu,Coimbatore,Tamil Nadu,turmeric
+Madurai_Tamil_Nadu,Madurai,Tamil Nadu,cotton
+Madurai_Tamil_Nadu,Madurai,Tamil Nadu,cotton
+Madurai_Tamil_Nadu,Madurai,Tamil Nadu,cotton
+Madurai_Tamil_Nadu,Madurai,Tamil Nadu,cotton
+Madurai_Tamil_Nadu,Madurai,Tamil Nadu,cotton
+Salem_Tamil_Nadu,Salem,Tamil Nadu,sugarcane
+Salem_Tamil_Nadu,Salem,Tamil Nadu,sugarcane
+Salem_Tamil_Nadu,Salem,Tamil Nadu,sugarcane
+Salem_Tamil_Nadu,Salem,Tamil Nadu,sugarcane
+Salem_Tamil_Nadu,Salem,Tamil Nadu,sugarcane
+Erode_Tamil_Nadu,Erode,Tamil Nadu,turmeric
+Erode_Tamil_Nadu,Erode,Tamil Nadu,turmeric
+Erode_Tamil_Nadu,Erode,Tamil Nadu,turmeric
+Erode_Tamil_Nadu,Erode,Tamil Nadu,turmeric
+Erode_Tamil_Nadu,Erode,Tamil Nadu,turmeric
+Nashik_Maharashtra,Nashik,Maharashtra,onion
+Nashik_Maharashtra,Nashik,Maharashtra,onion
+Nashik_Maharashtra,Nashik,Maharashtra,onion
+Nashik_Maharashtra,Nashik,Maharashtra,onion
+Nashik_Maharashtra,Nashik,Maharashtra,onion
+Pune_Maharashtra,Pune,Maharashtra,sugarcane
+Pune_Maharashtra,Pune,Maharashtra,sugarcane
+Pune_Maharashtra,Pune,Maharashtra,sugarcane
+Pune_Maharashtra,Pune,Maharashtra,sugarcane
+Pune_Maharashtra,Pune,Maharashtra,sugarcane
+Nagpur_Maharashtra,Nagpur,Maharashtra,cotton
+Nagpur_Maharashtra,Nagpur,Maharashtra,cotton
+Nagpur_Maharashtra,Nagpur,Maharashtra,cotton
+Nagpur_Maharashtra,Nagpur,Maharashtra,cotton
+Nagpur_Maharashtra,Nagpur,Maharashtra,cotton
+Amravati_Maharashtra,Amravati,Maharashtra,cotton
+Amravati_Maharashtra,Amravati,Maharashtra,cotton
+Amravati_Maharashtra,Amravati,Maharashtra,cotton
+Amravati_Maharashtra,Amravati,Maharashtra,cotton
+Amravati_Maharashtra,Amravati,Maharashtra,cotton
+Kolhapur_Maharashtra,Kolhapur,Maharashtra,sugarcane
+Kolhapur_Maharashtra,Kolhapur,Maharashtra,sugarcane
+Kolhapur_Maharashtra,Kolhapur,Maharashtra,sugarcane
+Kolhapur_Maharashtra,Kolhapur,Maharashtra,sugarcane
+Kolhapur_Maharashtra,Kolhapur,Maharashtra,sugarcane
+Ludhiana_Punjab,Ludhiana,Punjab,wheat
+Ludhiana_Punjab,Ludhiana,Punjab,wheat
+Ludhiana_Punjab,Ludhiana,Punjab,wheat
+Ludhiana_Punjab,Ludhiana,Punjab,wheat
+Ludhiana_Punjab,Ludhiana,Punjab,wheat
+Amritsar_Punjab,Amritsar,Punjab,wheat
+Amritsar_Punjab,Amritsar,Punjab,wheat
+Amritsar_Punjab,Amritsar,Punjab,wheat
+Amritsar_Punjab,Amritsar,Punjab,wheat
+Amritsar_Punjab,Amritsar,Punjab,wheat
+Patiala_Punjab,Patiala,Punjab,rice
+Patiala_Punjab,Patiala,Punjab,rice
+Patiala_Punjab,Patiala,Punjab,rice
+Patiala_Punjab,Patiala,Punjab,rice
+Patiala_Punjab,Patiala,Punjab,rice
+Gurdaspur_Punjab,Gurdaspur,Punjab,rice
+Gurdaspur_Punjab,Gurdaspur,Punjab,rice
+Gurdaspur_Punjab,Gurdaspur,Punjab,rice
+Gurdaspur_Punjab,Gurdaspur,Punjab,rice
+Gurdaspur_Punjab,Gurdaspur,Punjab,rice
+Bhatinda_Punjab,Bhatinda,Punjab,cotton
+Bhatinda_Punjab,Bhatinda,Punjab,cotton
+Bhatinda_Punjab,Bhatinda,Punjab,cotton
+Bhatinda_Punjab,Bhatinda,Punjab,cotton
+Bhatinda_Punjab,Bhatinda,Punjab,cotton
+Guntur_Andhra_Pradesh,Guntur,Andhra Pradesh,cotton
+Guntur_Andhra_Pradesh,Guntur,Andhra Pradesh,cotton
+Guntur_Andhra_Pradesh,Guntur,Andhra Pradesh,cotton
+Guntur_Andhra_Pradesh,Guntur,Andhra Pradesh,cotton
+Guntur_Andhra_Pradesh,Guntur,Andhra Pradesh,cotton
+Krishna_Andhra_Pradesh,Krishna,Andhra Pradesh,rice
+Krishna_Andhra_Pradesh,Krishna,Andhra Pradesh,rice
+Krishna_Andhra_Pradesh,Krishna,Andhra Pradesh,rice
+Krishna_Andhra_Pradesh,Krishna,Andhra Pradesh,rice
+Krishna_Andhra_Pradesh,Krishna,Andhra Pradesh,rice
+Kurnool_Andhra_Pradesh,Kurnool,Andhra Pradesh,groundnut
+Kurnool_Andhra_Pradesh,Kurnool,Andhra Pradesh,groundnut
+Kurnool_Andhra_Pradesh,Kurnool,Andhra Pradesh,groundnut
+Kurnool_Andhra_Pradesh,Kurnool,Andhra Pradesh,groundnut
+Kurnool_Andhra_Pradesh,Kurnool,Andhra Pradesh,groundnut
+Anantapur_Andhra_Pradesh,Anantapur,Andhra Pradesh,groundnut
+Anantapur_Andhra_Pradesh,Anantapur,Andhra Pradesh,groundnut
+Anantapur_Andhra_Pradesh,Anantapur,Andhra Pradesh,groundnut
+Anantapur_Andhra_Pradesh,Anantapur,Andhra Pradesh,groundnut
+Anantapur_Andhra_Pradesh,Anantapur,Andhra Pradesh,groundnut
+Nellore_Andhra_Pradesh,Nellore,Andhra Pradesh,rice
+Nellore_Andhra_Pradesh,Nellore,Andhra Pradesh,rice
+Nellore_Andhra_Pradesh,Nellore,Andhra Pradesh,rice
+Nellore_Andhra_Pradesh,Nellore,Andhra Pradesh,rice
+Nellore_Andhra_Pradesh,Nellore,Andhra Pradesh,rice
+Mysuru_Karnataka,Mysuru,Karnataka,sugarcane
+Mysuru_Karnataka,Mysuru,Karnataka,sugarcane
+Mysuru_Karnataka,Mysuru,Karnataka,sugarcane
+Mysuru_Karnataka,Mysuru,Karnataka,sugarcane
+Mysuru_Karnataka,Mysuru,Karnataka,sugarcane
+Belagavi_Karnataka,Belagavi,Karnataka,sugarcane
+Belagavi_Karnataka,Belagavi,Karnataka,sugarcane
+Belagavi_Karnataka,Belagavi,Karnataka,sugarcane
+Belagavi_Karnataka,Belagavi,Karnataka,sugarcane
+Belagavi_Karnataka,Belagavi,Karnataka,sugarcane
+Dharwad_Karnataka,Dharwad,Karnataka,cotton
+Dharwad_Karnataka,Dharwad,Karnataka,cotton
+Dharwad_Karnataka,Dharwad,Karnataka,cotton
+Dharwad_Karnataka,Dharwad,Karnataka,cotton
+Dharwad_Karnataka,Dharwad,Karnataka,cotton
+Tumkur_Karnataka,Tumkur,Karnataka,groundnut
+Tumkur_Karnataka,Tumkur,Karnataka,groundnut
+Tumkur_Karnataka,Tumkur,Karnataka,groundnut
+Tumkur_Karnataka,Tumkur,Karnataka,groundnut
+Tumkur_Karnataka,Tumkur,Karnataka,groundnut
+Hassan_Karnataka,Hassan,Karnataka,rice
+Hassan_Karnataka,Hassan,Karnataka,rice
+Hassan_Karnataka,Hassan,Karnataka,rice
+Hassan_Karnataka,Hassan,Karnataka,rice
+Hassan_Karnataka,Hassan,Karnataka,rice
+Wayanad_Kerala,Wayanad,Kerala,banana
+Wayanad_Kerala,Wayanad,Kerala,banana
+Wayanad_Kerala,Wayanad,Kerala,banana
+Wayanad_Kerala,Wayanad,Kerala,banana
+Wayanad_Kerala,Wayanad,Kerala,banana
+Palakkad_Kerala,Palakkad,Kerala,rice
+Palakkad_Kerala,Palakkad,Kerala,rice
+Palakkad_Kerala,Palakkad,Kerala,rice
+Palakkad_Kerala,Palakkad,Kerala,rice
+Palakkad_Kerala,Palakkad,Kerala,rice
+Thrissur_Kerala,Thrissur,Kerala,coconut
+Thrissur_Kerala,Thrissur,Kerala,coconut
+Thrissur_Kerala,Thrissur,Kerala,coconut
+Thrissur_Kerala,Thrissur,Kerala,coconut
+Thrissur_Kerala,Thrissur,Kerala,coconut
+Kollam_Kerala,Kollam,Kerala,coconut
+Kollam_Kerala,Kollam,Kerala,coconut
+Kollam_Kerala,Kollam,Kerala,coconut
+Kollam_Kerala,Kollam,Kerala,coconut
+Kollam_Kerala,Kollam,Kerala,coconut
+Idukki_Kerala,Idukki,Kerala,banana
+Idukki_Kerala,Idukki,Kerala,banana
+Idukki_Kerala,Idukki,Kerala,banana
+Idukki_Kerala,Idukki,Kerala,banana
+Idukki_Kerala,Idukki,Kerala,banana
+Varanasi_Uttar_Pradesh,Varanasi,Uttar Pradesh,wheat
+Varanasi_Uttar_Pradesh,Varanasi,Uttar Pradesh,wheat
+Varanasi_Uttar_Pradesh,Varanasi,Uttar Pradesh,wheat
+Varanasi_Uttar_Pradesh,Varanasi,Uttar Pradesh,wheat
+Varanasi_Uttar_Pradesh,Varanasi,Uttar Pradesh,wheat
+Agra_Uttar_Pradesh,Agra,Uttar Pradesh,wheat
+Agra_Uttar_Pradesh,Agra,Uttar Pradesh,wheat
+Agra_Uttar_Pradesh,Agra,Uttar Pradesh,wheat
+Agra_Uttar_Pradesh,Agra,Uttar Pradesh,wheat
+Agra_Uttar_Pradesh,Agra,Uttar Pradesh,wheat
+Lucknow_Uttar_Pradesh,Lucknow,Uttar Pradesh,sugarcane
+Lucknow_Uttar_Pradesh,Lucknow,Uttar Pradesh,sugarcane
+Lucknow_Uttar_Pradesh,Lucknow,Uttar Pradesh,sugarcane
+Lucknow_Uttar_Pradesh,Lucknow,Uttar Pradesh,sugarcane
+Lucknow_Uttar_Pradesh,Lucknow,Uttar Pradesh,sugarcane
+Meerut_Uttar_Pradesh,Meerut,Uttar Pradesh,sugarcane
+Meerut_Uttar_Pradesh,Meerut,Uttar Pradesh,sugarcane
+Meerut_Uttar_Pradesh,Meerut,Uttar Pradesh,sugarcane
+Meerut_Uttar_Pradesh,Meerut,Uttar Pradesh,sugarcane
+Meerut_Uttar_Pradesh,Meerut,Uttar Pradesh,sugarcane
+Gorakhpur_Uttar_Pradesh,Gorakhpur,Uttar Pradesh,rice
+Gorakhpur_Uttar_Pradesh,Gorakhpur,Uttar Pradesh,rice
+Gorakhpur_Uttar_Pradesh,Gorakhpur,Uttar Pradesh,rice
+Gorakhpur_Uttar_Pradesh,Gorakhpur,Uttar Pradesh,rice
+Gorakhpur_Uttar_Pradesh,Gorakhpur,Uttar Pradesh,rice
+Indore_Madhya_Pradesh,Indore,Madhya Pradesh,soybean
+Indore_Madhya_Pradesh,Indore,Madhya Pradesh,soybean
+Indore_Madhya_Pradesh,Indore,Madhya Pradesh,soybean
+Indore_Madhya_Pradesh,Indore,Madhya Pradesh,soybean
+Indore_Madhya_Pradesh,Indore,Madhya Pradesh,soybean
+Bhopal_Madhya_Pradesh,Bhopal,Madhya Pradesh,soybean
+Bhopal_Madhya_Pradesh,Bhopal,Madhya Pradesh,soybean
+Bhopal_Madhya_Pradesh,Bhopal,Madhya Pradesh,soybean
+Bhopal_Madhya_Pradesh,Bhopal,Madhya Pradesh,soybean
+Bhopal_Madhya_Pradesh,Bhopal,Madhya Pradesh,soybean
+Jabalpur_Madhya_Pradesh,Jabalpur,Madhya Pradesh,wheat
+Jabalpur_Madhya_Pradesh,Jabalpur,Madhya Pradesh,wheat
+Jabalpur_Madhya_Pradesh,Jabalpur,Madhya Pradesh,wheat
+Jabalpur_Madhya_Pradesh,Jabalpur,Madhya Pradesh,wheat
+Jabalpur_Madhya_Pradesh,Jabalpur,Madhya Pradesh,wheat
+Gwalior_Madhya_Pradesh,Gwalior,Madhya Pradesh,wheat
+Gwalior_Madhya_Pradesh,Gwalior,Madhya Pradesh,wheat
+Gwalior_Madhya_Pradesh,Gwalior,Madhya Pradesh,wheat
+Gwalior_Madhya_Pradesh,Gwalior,Madhya Pradesh,wheat
+Gwalior_Madhya_Pradesh,Gwalior,Madhya Pradesh,wheat
+Ujjain_Madhya_Pradesh,Ujjain,Madhya Pradesh,soybean
+Ujjain_Madhya_Pradesh,Ujjain,Madhya Pradesh,soybean
+Ujjain_Madhya_Pradesh,Ujjain,Madhya Pradesh,soybean
+Ujjain_Madhya_Pradesh,Ujjain,Madhya Pradesh,soybean
+Ujjain_Madhya_Pradesh,Ujjain,Madhya Pradesh,soybean
+Jaipur_Rajasthan,Jaipur,Rajasthan,groundnut
+Jaipur_Rajasthan,Jaipur,Rajasthan,groundnut
+Jaipur_Rajasthan,Jaipur,Rajasthan,groundnut
+Jaipur_Rajasthan,Jaipur,Rajasthan,groundnut
+Jaipur_Rajasthan,Jaipur,Rajasthan,groundnut
+Jodhpur_Rajasthan,Jodhpur,Rajasthan,groundnut
+Jodhpur_Rajasthan,Jodhpur,Rajasthan,groundnut
+Jodhpur_Rajasthan,Jodhpur,Rajasthan,groundnut
+Jodhpur_Rajasthan,Jodhpur,Rajasthan,groundnut
+Jodhpur_Rajasthan,Jodhpur,Rajasthan,groundnut
+Bikaner_Rajasthan,Bikaner,Rajasthan,groundnut
+Bikaner_Rajasthan,Bikaner,Rajasthan,groundnut
+Bikaner_Rajasthan,Bikaner,Rajasthan,groundnut
+Bikaner_Rajasthan,Bikaner,Rajasthan,groundnut
+Bikaner_Rajasthan,Bikaner,Rajasthan,groundnut
+Kota_Rajasthan,Kota,Rajasthan,soybean
+Kota_Rajasthan,Kota,Rajasthan,soybean
+Kota_Rajasthan,Kota,Rajasthan,soybean
+Kota_Rajasthan,Kota,Rajasthan,soybean
+Kota_Rajasthan,Kota,Rajasthan,soybean
+Ajmer_Rajasthan,Ajmer,Rajasthan,wheat
+Ajmer_Rajasthan,Ajmer,Rajasthan,wheat
+Ajmer_Rajasthan,Ajmer,Rajasthan,wheat
+Ajmer_Rajasthan,Ajmer,Rajasthan,wheat
+Ajmer_Rajasthan,Ajmer,Rajasthan,wheat
+Patna_Bihar,Patna,Bihar,rice
+Patna_Bihar,Patna,Bihar,rice
+Patna_Bihar,Patna,Bihar,rice
+Patna_Bihar,Patna,Bihar,rice
+Patna_Bihar,Patna,Bihar,rice
+Gaya_Bihar,Gaya,Bihar,wheat
+Gaya_Bihar,Gaya,Bihar,wheat
+Gaya_Bihar,Gaya,Bihar,wheat
+Gaya_Bihar,Gaya,Bihar,wheat
+Gaya_Bihar,Gaya,Bihar,wheat
+Muzaffarpur_Bihar,Muzaffarpur,Bihar,rice
+Muzaffarpur_Bihar,Muzaffarpur,Bihar,rice
+Muzaffarpur_Bihar,Muzaffarpur,Bihar,rice
+Muzaffarpur_Bihar,Muzaffarpur,Bihar,rice
+Muzaffarpur_Bihar,Muzaffarpur,Bihar,rice
+Bhagalpur_Bihar,Bhagalpur,Bihar,rice
+Bhagalpur_Bihar,Bhagalpur,Bihar,rice
+Bhagalpur_Bihar,Bhagalpur,Bihar,rice
+Bhagalpur_Bihar,Bhagalpur,Bihar,rice
+Bhagalpur_Bihar,Bhagalpur,Bihar,rice
+Darbhanga_Bihar,Darbhanga,Bihar,maize
+Darbhanga_Bihar,Darbhanga,Bihar,maize
+Darbhanga_Bihar,Darbhanga,Bihar,maize
+Darbhanga_Bihar,Darbhanga,Bihar,maize
+Darbhanga_Bihar,Darbhanga,Bihar,maize
+Khurda_Odisha,Khurda,Odisha,rice
+Khurda_Odisha,Khurda,Odisha,rice
+Khurda_Odisha,Khurda,Odisha,rice
+Khurda_Odisha,Khurda,Odisha,rice
+Khurda_Odisha,Khurda,Odisha,rice
+Cuttack_Odisha,Cuttack,Odisha,rice
+Cuttack_Odisha,Cuttack,Odisha,rice
+Cuttack_Odisha,Cuttack,Odisha,rice
+Cuttack_Odisha,Cuttack,Odisha,rice
+Cuttack_Odisha,Cuttack,Odisha,rice
+Sambalpur_Odisha,Sambalpur,Odisha,rice
+Sambalpur_Odisha,Sambalpur,Odisha,rice
+Sambalpur_Odisha,Sambalpur,Odisha,rice
+Sambalpur_Odisha,Sambalpur,Odisha,rice
+Sambalpur_Odisha,Sambalpur,Odisha,rice
+Koraput_Odisha,Koraput,Odisha,black_gram
+Koraput_Odisha,Koraput,Odisha,black_gram
+Koraput_Odisha,Koraput,Odisha,black_gram
+Koraput_Odisha,Koraput,Odisha,black_gram
+Koraput_Odisha,Koraput,Odisha,black_gram
+Mayurbhanj_Odisha,Mayurbhanj,Odisha,maize
+Mayurbhanj_Odisha,Mayurbhanj,Odisha,maize
+Mayurbhanj_Odisha,Mayurbhanj,Odisha,maize
+Mayurbhanj_Odisha,Mayurbhanj,Odisha,maize
+Mayurbhanj_Odisha,Mayurbhanj,Odisha,maize
+Nadia_West_Bengal,Nadia,West Bengal,rice
+Nadia_West_Bengal,Nadia,West Bengal,rice
+Nadia_West_Bengal,Nadia,West Bengal,rice
+Nadia_West_Bengal,Nadia,West Bengal,rice
+Nadia_West_Bengal,Nadia,West Bengal,rice
+Bardhaman_West_Bengal,Bardhaman,West Bengal,rice
+Bardhaman_West_Bengal,Bardhaman,West Bengal,rice
+Bardhaman_West_Bengal,Bardhaman,West Bengal,rice
+Bardhaman_West_Bengal,Bardhaman,West Bengal,rice
+Bardhaman_West_Bengal,Bardhaman,West Bengal,rice
+Murshidabad_West_Bengal,Murshidabad,West Bengal,rice
+Murshidabad_West_Bengal,Murshidabad,West Bengal,rice
+Murshidabad_West_Bengal,Murshidabad,West Bengal,rice
+Murshidabad_West_Bengal,Murshidabad,West Bengal,rice
+Murshidabad_West_Bengal,Murshidabad,West Bengal,rice
+Hooghly_West_Bengal,Hooghly,West Bengal,rice
+Hooghly_West_Bengal,Hooghly,West Bengal,rice
+Hooghly_West_Bengal,Hooghly,West Bengal,rice
+Hooghly_West_Bengal,Hooghly,West Bengal,rice
+Hooghly_West_Bengal,Hooghly,West Bengal,rice
+Jalpaiguri_West_Bengal,Jalpaiguri,West Bengal,maize
+Jalpaiguri_West_Bengal,Jalpaiguri,West Bengal,maize
+Jalpaiguri_West_Bengal,Jalpaiguri,West Bengal,maize
+Jalpaiguri_West_Bengal,Jalpaiguri,West Bengal,maize
+Jalpaiguri_West_Bengal,Jalpaiguri,West Bengal,maize
+Nizamabad_Telangana,Nizamabad,Telangana,turmeric
+Nizamabad_Telangana,Nizamabad,Telangana,turmeric
+Nizamabad_Telangana,Nizamabad,Telangana,turmeric
+Nizamabad_Telangana,Nizamabad,Telangana,turmeric
+Nizamabad_Telangana,Nizamabad,Telangana,turmeric
+Warangal_Telangana,Warangal,Telangana,cotton
+Warangal_Telangana,Warangal,Telangana,cotton
+Warangal_Telangana,Warangal,Telangana,cotton
+Warangal_Telangana,Warangal,Telangana,cotton
+Warangal_Telangana,Warangal,Telangana,cotton
+Karimnagar_Telangana,Karimnagar,Telangana,rice
+Karimnagar_Telangana,Karimnagar,Telangana,rice
+Karimnagar_Telangana,Karimnagar,Telangana,rice
+Karimnagar_Telangana,Karimnagar,Telangana,rice
+Karimnagar_Telangana,Karimnagar,Telangana,rice
+Khammam_Telangana,Khammam,Telangana,cotton
+Khammam_Telangana,Khammam,Telangana,cotton
+Khammam_Telangana,Khammam,Telangana,cotton
+Khammam_Telangana,Khammam,Telangana,cotton
+Khammam_Telangana,Khammam,Telangana,cotton
+Nalgonda_Telangana,Nalgonda,Telangana,groundnut
+Nalgonda_Telangana,Nalgonda,Telangana,groundnut
+Nalgonda_Telangana,Nalgonda,Telangana,groundnut
+Nalgonda_Telangana,Nalgonda,Telangana,groundnut
+Nalgonda_Telangana,Nalgonda,Telangana,groundnut

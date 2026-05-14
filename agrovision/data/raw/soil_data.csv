@@ -1,0 +1,326 @@
+region_id,district,state,latitude,longitude,N,P,K,pH,moisture,organic_matter
+Thanjavur_Tamil_Nadu,Thanjavur,Tamil Nadu,10.8,79.1,80,38,124,6.59,71.0,2.66
+Thanjavur_Tamil_Nadu,Thanjavur,Tamil Nadu,10.8,79.1,78,44,116,6.56,74.1,2.94
+Thanjavur_Tamil_Nadu,Thanjavur,Tamil Nadu,10.8,79.1,83,40,113,6.33,68.7,2.7
+Thanjavur_Tamil_Nadu,Thanjavur,Tamil Nadu,10.8,79.1,74,35,114,6.39,70.0,2.83
+Thanjavur_Tamil_Nadu,Thanjavur,Tamil Nadu,10.8,79.1,76,44,114,6.37,65.8,2.77
+Coimbatore_Tamil_Nadu,Coimbatore,Tamil Nadu,11.0,76.9,56,38,82,7.4,44.1,1.85
+Coimbatore_Tamil_Nadu,Coimbatore,Tamil Nadu,11.0,76.9,66,30,80,7.09,49.6,1.7
+Coimbatore_Tamil_Nadu,Coimbatore,Tamil Nadu,11.0,76.9,52,37,81,7.14,41.1,1.97
+Coimbatore_Tamil_Nadu,Coimbatore,Tamil Nadu,11.0,76.9,64,33,94,7.21,49.2,1.79
+Coimbatore_Tamil_Nadu,Coimbatore,Tamil Nadu,11.0,76.9,57,34,90,7.37,43.2,1.94
+Madurai_Tamil_Nadu,Madurai,Tamil Nadu,9.9,78.1,61,32,74,7.49,39.1,1.61
+Madurai_Tamil_Nadu,Madurai,Tamil Nadu,9.9,78.1,60,31,88,7.38,44.0,1.38
+Madurai_Tamil_Nadu,Madurai,Tamil Nadu,9.9,78.1,54,26,82,7.46,37.2,1.56
+Madurai_Tamil_Nadu,Madurai,Tamil Nadu,9.9,78.1,61,29,86,7.56,41.9,1.64
+Madurai_Tamil_Nadu,Madurai,Tamil Nadu,9.9,78.1,59,29,80,7.54,44.8,1.65
+Salem_Tamil_Nadu,Salem,Tamil Nadu,11.6,78.1,66,42,108,6.95,50.1,2.33
+Salem_Tamil_Nadu,Salem,Tamil Nadu,11.6,78.1,69,34,104,6.79,55.4,2.06
+Salem_Tamil_Nadu,Salem,Tamil Nadu,11.6,78.1,77,36,95,6.93,54.5,2.26
+Salem_Tamil_Nadu,Salem,Tamil Nadu,11.6,78.1,74,39,104,6.69,58.8,2.18
+Salem_Tamil_Nadu,Salem,Tamil Nadu,11.6,78.1,77,38,98,6.95,59.9,2.3
+Erode_Tamil_Nadu,Erode,Tamil Nadu,11.3,77.7,57,40,94,7.17,49.2,1.83
+Erode_Tamil_Nadu,Erode,Tamil Nadu,11.3,77.7,59,32,104,6.82,50.6,2.18
+Erode_Tamil_Nadu,Erode,Tamil Nadu,11.3,77.7,58,34,99,7.19,50.5,2.19
+Erode_Tamil_Nadu,Erode,Tamil Nadu,11.3,77.7,65,31,93,7.18,53.1,1.83
+Erode_Tamil_Nadu,Erode,Tamil Nadu,11.3,77.7,66,37,91,7.14,54.2,1.9
+Nashik_Maharashtra,Nashik,Maharashtra,20.0,73.8,80,39,104,6.93,55.6,2.52
+Nashik_Maharashtra,Nashik,Maharashtra,20.0,73.8,72,46,112,6.81,51.6,2.64
+Nashik_Maharashtra,Nashik,Maharashtra,20.0,73.8,69,44,111,6.92,55.0,2.34
+Nashik_Maharashtra,Nashik,Maharashtra,20.0,73.8,76,45,115,6.93,57.4,2.62
+Nashik_Maharashtra,Nashik,Maharashtra,20.0,73.8,74,43,115,6.8,57.9,2.31
+Pune_Maharashtra,Pune,Maharashtra,18.5,73.8,62,33,97,7.07,49.1,2.26
+Pune_Maharashtra,Pune,Maharashtra,18.5,73.8,63,37,90,7.04,46.5,1.91
+Pune_Maharashtra,Pune,Maharashtra,18.5,73.8,62,37,91,7.19,50.3,2.25
+Pune_Maharashtra,Pune,Maharashtra,18.5,73.8,73,38,100,7.04,46.1,2.22
+Pune_Maharashtra,Pune,Maharashtra,18.5,73.8,71,35,94,6.95,45.4,2.13
+Nagpur_Maharashtra,Nagpur,Maharashtra,21.1,79.1,75,40,104,7.41,48.1,1.65
+Nagpur_Maharashtra,Nagpur,Maharashtra,21.1,79.1,75,35,111,7.49,47.9,1.94
+Nagpur_Maharashtra,Nagpur,Maharashtra,21.1,79.1,72,39,95,7.17,48.7,1.71
+Nagpur_Maharashtra,Nagpur,Maharashtra,21.1,79.1,73,36,103,7.21,46.3,1.79
+Nagpur_Maharashtra,Nagpur,Maharashtra,21.1,79.1,68,35,100,7.23,47.3,1.76
+Amravati_Maharashtra,Amravati,Maharashtra,20.9,77.7,65,35,90,7.09,45.3,1.75
+Amravati_Maharashtra,Amravati,Maharashtra,20.9,77.7,73,33,92,7.16,44.6,1.6
+Amravati_Maharashtra,Amravati,Maharashtra,20.9,77.7,76,42,90,7.08,41.3,1.72
+Amravati_Maharashtra,Amravati,Maharashtra,20.9,77.7,77,41,93,7.31,43.8,1.81
+Amravati_Maharashtra,Amravati,Maharashtra,20.9,77.7,63,40,100,7.33,45.1,1.89
+Kolhapur_Maharashtra,Kolhapur,Maharashtra,16.7,74.2,86,47,129,6.78,65.4,2.9
+Kolhapur_Maharashtra,Kolhapur,Maharashtra,16.7,74.2,76,45,119,6.6,61.4,2.95
+Kolhapur_Maharashtra,Kolhapur,Maharashtra,16.7,74.2,73,40,129,6.55,62.3,2.81
+Kolhapur_Maharashtra,Kolhapur,Maharashtra,16.7,74.2,76,42,129,6.7,62.8,2.81
+Kolhapur_Maharashtra,Kolhapur,Maharashtra,16.7,74.2,80,43,126,6.43,62.5,3.01
+Ludhiana_Punjab,Ludhiana,Punjab,30.9,75.8,84,54,145,7.62,58.2,2.28
+Ludhiana_Punjab,Ludhiana,Punjab,30.9,75.8,85,51,131,7.67,59.2,2.4
+Ludhiana_Punjab,Ludhiana,Punjab,30.9,75.8,94,50,133,7.95,64.0,2.22
+Ludhiana_Punjab,Ludhiana,Punjab,30.9,75.8,83,54,131,7.76,56.3,2.11
+Ludhiana_Punjab,Ludhiana,Punjab,30.9,75.8,93,51,140,7.93,64.8,2.26
+Amritsar_Punjab,Amritsar,Punjab,31.6,74.9,88,49,140,7.55,58.8,2.39
+Amritsar_Punjab,Amritsar,Punjab,31.6,74.9,88,52,128,7.56,60.9,2.25
+Amritsar_Punjab,Amritsar,Punjab,31.6,74.9,88,43,141,7.71,55.5,2.14
+Amritsar_Punjab,Amritsar,Punjab,31.6,74.9,86,44,142,7.56,57.7,2.22
+Amritsar_Punjab,Amritsar,Punjab,31.6,74.9,83,44,142,7.77,62.3,2.4
+Patiala_Punjab,Patiala,Punjab,30.3,76.4,79,46,133,7.58,57.8,2.47
+Patiala_Punjab,Patiala,Punjab,30.3,76.4,92,41,130,7.58,59.6,2.5
+Patiala_Punjab,Patiala,Punjab,30.3,76.4,82,44,138,7.53,58.1,2.58
+Patiala_Punjab,Patiala,Punjab,30.3,76.4,90,44,125,7.54,58.5,2.44
+Patiala_Punjab,Patiala,Punjab,30.3,76.4,87,41,122,7.79,64.9,2.44
+Gurdaspur_Punjab,Gurdaspur,Punjab,32.0,75.4,84,49,134,7.57,59.4,2.48
+Gurdaspur_Punjab,Gurdaspur,Punjab,32.0,75.4,86,42,126,7.4,59.2,2.12
+Gurdaspur_Punjab,Gurdaspur,Punjab,32.0,75.4,83,51,136,7.48,63.2,2.45
+Gurdaspur_Punjab,Gurdaspur,Punjab,32.0,75.4,94,45,127,7.58,55.8,2.45
+Gurdaspur_Punjab,Gurdaspur,Punjab,32.0,75.4,81,50,137,7.5,57.6,2.23
+Bhatinda_Punjab,Bhatinda,Punjab,30.2,74.9,83,40,116,8.19,39.4,1.73
+Bhatinda_Punjab,Bhatinda,Punjab,30.2,74.9,74,46,121,8.09,41.9,1.99
+Bhatinda_Punjab,Bhatinda,Punjab,30.2,74.9,84,42,128,7.97,39.6,1.92
+Bhatinda_Punjab,Bhatinda,Punjab,30.2,74.9,78,43,118,8.14,35.2,1.62
+Bhatinda_Punjab,Bhatinda,Punjab,30.2,74.9,73,41,113,7.88,40.2,1.79
+Guntur_Andhra_Pradesh,Guntur,Andhra Pradesh,16.3,80.4,75,42,117,6.91,61.6,2.59
+Guntur_Andhra_Pradesh,Guntur,Andhra Pradesh,16.3,80.4,69,41,123,6.91,64.8,2.35
+Guntur_Andhra_Pradesh,Guntur,Andhra Pradesh,16.3,80.4,75,46,121,7.19,58.4,2.34
+Guntur_Andhra_Pradesh,Guntur,Andhra Pradesh,16.3,80.4,68,40,116,6.92,55.0,2.59
+Guntur_Andhra_Pradesh,Guntur,Andhra Pradesh,16.3,80.4,81,46,118,7.07,56.8,2.53
+Krishna_Andhra_Pradesh,Krishna,Andhra Pradesh,16.6,80.9,86,40,115,6.81,68.6,2.57
+Krishna_Andhra_Pradesh,Krishna,Andhra Pradesh,16.6,80.9,74,45,124,6.73,63.2,2.66
+Krishna_Andhra_Pradesh,Krishna,Andhra Pradesh,16.6,80.9,74,48,126,6.62,70.2,2.72
+Krishna_Andhra_Pradesh,Krishna,Andhra Pradesh,16.6,80.9,74,46,117,6.73,68.1,2.88
+Krishna_Andhra_Pradesh,Krishna,Andhra Pradesh,16.6,80.9,74,41,124,6.68,67.9,2.88
+Kurnool_Andhra_Pradesh,Kurnool,Andhra Pradesh,15.8,78.0,61,40,101,7.33,38.8,1.73
+Kurnool_Andhra_Pradesh,Kurnool,Andhra Pradesh,15.8,78.0,72,37,93,7.36,43.8,1.59
+Kurnool_Andhra_Pradesh,Kurnool,Andhra Pradesh,15.8,78.0,66,37,93,7.26,44.1,1.6
+Kurnool_Andhra_Pradesh,Kurnool,Andhra Pradesh,15.8,78.0,66,36,104,7.36,40.2,1.69
+Kurnool_Andhra_Pradesh,Kurnool,Andhra Pradesh,15.8,78.0,58,32,100,7.26,39.6,1.67
+Anantapur_Andhra_Pradesh,Anantapur,Andhra Pradesh,14.7,77.6,64,25,91,7.75,31.5,1.48
+Anantapur_Andhra_Pradesh,Anantapur,Andhra Pradesh,14.7,77.6,53,25,92,7.78,37.9,1.44
+Anantapur_Andhra_Pradesh,Anantapur,Andhra Pradesh,14.7,77.6,51,30,81,7.76,30.1,1.28
+Anantapur_Andhra_Pradesh,Anantapur,Andhra Pradesh,14.7,77.6,52,32,87,7.8,37.7,1.28
+Anantapur_Andhra_Pradesh,Anantapur,Andhra Pradesh,14.7,77.6,50,26,88,7.76,33.2,1.42
+Nellore_Andhra_Pradesh,Nellore,Andhra Pradesh,14.4,79.9,80,45,120,6.72,60.8,2.7
+Nellore_Andhra_Pradesh,Nellore,Andhra Pradesh,14.4,79.9,77,43,124,6.74,64.3,2.44
+Nellore_Andhra_Pradesh,Nellore,Andhra Pradesh,14.4,79.9,82,37,109,6.87,69.6,2.54
+Nellore_Andhra_Pradesh,Nellore,Andhra Pradesh,14.4,79.9,72,41,114,6.99,65.0,2.66
+Nellore_Andhra_Pradesh,Nellore,Andhra Pradesh,14.4,79.9,76,42,117,6.88,63.3,2.48
+Mysuru_Karnataka,Mysuru,Karnataka,12.3,76.6,68,41,103,6.87,57.3,2.49
+Mysuru_Karnataka,Mysuru,Karnataka,12.3,76.6,67,44,100,6.87,55.0,2.16
+Mysuru_Karnataka,Mysuru,Karnataka,12.3,76.6,72,41,115,6.84,53.3,2.48
+Mysuru_Karnataka,Mysuru,Karnataka,12.3,76.6,75,44,116,6.61,62.5,2.13
+Mysuru_Karnataka,Mysuru,Karnataka,12.3,76.6,67,37,111,6.59,53.1,2.41
+Belagavi_Karnataka,Belagavi,Karnataka,15.8,74.5,79,48,116,6.76,57.5,2.62
+Belagavi_Karnataka,Belagavi,Karnataka,15.8,74.5,72,43,119,6.6,58.5,2.33
+Belagavi_Karnataka,Belagavi,Karnataka,15.8,74.5,79,46,121,6.99,63.1,2.62
+Belagavi_Karnataka,Belagavi,Karnataka,15.8,74.5,83,43,117,6.83,61.0,2.41
+Belagavi_Karnataka,Belagavi,Karnataka,15.8,74.5,81,44,105,6.74,67.0,2.61
+Dharwad_Karnataka,Dharwad,Karnataka,15.4,75.0,64,39,97,7.11,47.3,1.87
+Dharwad_Karnataka,Dharwad,Karnataka,15.4,75.0,64,41,109,7.09,50.4,2.17
+Dharwad_Karnataka,Dharwad,Karnataka,15.4,75.0,74,42,102,7.07,50.5,2.02
+Dharwad_Karnataka,Dharwad,Karnataka,15.4,75.0,71,37,105,7.1,48.1,2.1
+Dharwad_Karnataka,Dharwad,Karnataka,15.4,75.0,63,36,105,6.91,50.0,1.99
+Tumkur_Karnataka,Tumkur,Karnataka,13.3,77.1,71,32,89,7.17,48.6,1.76
+Tumkur_Karnataka,Tumkur,Karnataka,13.3,77.1,66,34,85,6.91,51.2,1.7
+Tumkur_Karnataka,Tumkur,Karnataka,13.3,77.1,65,32,88,7.12,46.7,1.75
+Tumkur_Karnataka,Tumkur,Karnataka,13.3,77.1,71,33,91,7.09,44.4,1.82
+Tumkur_Karnataka,Tumkur,Karnataka,13.3,77.1,64,33,85,6.88,44.7,1.77
+Hassan_Karnataka,Hassan,Karnataka,13.0,76.1,71,38,100,6.47,62.7,2.25
+Hassan_Karnataka,Hassan,Karnataka,13.0,76.1,72,43,99,6.48,61.3,2.59
+Hassan_Karnataka,Hassan,Karnataka,13.0,76.1,70,40,114,6.7,56.1,2.39
+Hassan_Karnataka,Hassan,Karnataka,13.0,76.1,68,38,110,6.6,61.4,2.32
+Hassan_Karnataka,Hassan,Karnataka,13.0,76.1,75,44,95,6.58,63.4,2.4
+Wayanad_Kerala,Wayanad,Kerala,11.6,76.1,84,52,121,5.65,78.8,3.57
+Wayanad_Kerala,Wayanad,Kerala,11.6,76.1,80,51,130,5.92,76.3,3.51
+Wayanad_Kerala,Wayanad,Kerala,11.6,76.1,80,48,120,5.97,78.3,3.35
+Wayanad_Kerala,Wayanad,Kerala,11.6,76.1,85,45,125,5.68,81.0,3.34
+Wayanad_Kerala,Wayanad,Kerala,11.6,76.1,88,44,121,5.83,84.3,3.51
+Palakkad_Kerala,Palakkad,Kerala,10.8,76.6,82,48,122,6.36,73.5,3.07
+Palakkad_Kerala,Palakkad,Kerala,10.8,76.6,84,46,129,6.09,69.6,3.0
+Palakkad_Kerala,Palakkad,Kerala,10.8,76.6,74,46,119,6.16,70.8,3.06
+Palakkad_Kerala,Palakkad,Kerala,10.8,76.6,77,46,120,6.11,70.0,3.01
+Palakkad_Kerala,Palakkad,Kerala,10.8,76.6,83,48,127,6.4,74.8,2.91
+Thrissur_Kerala,Thrissur,Kerala,10.5,76.2,86,41,131,5.92,71.9,3.22
+Thrissur_Kerala,Thrissur,Kerala,10.5,76.2,86,50,129,5.9,70.1,3.09
+Thrissur_Kerala,Thrissur,Kerala,10.5,76.2,82,44,120,6.02,73.9,3.12
+Thrissur_Kerala,Thrissur,Kerala,10.5,76.2,74,48,127,6.01,72.9,3.28
+Thrissur_Kerala,Thrissur,Kerala,10.5,76.2,88,42,125,5.93,70.9,3.4
+Kollam_Kerala,Kollam,Kerala,8.9,76.6,79,44,114,5.91,80.0,3.16
+Kollam_Kerala,Kollam,Kerala,8.9,76.6,76,40,117,6.2,75.5,3.23
+Kollam_Kerala,Kollam,Kerala,8.9,76.6,84,47,127,5.93,81.7,3.24
+Kollam_Kerala,Kollam,Kerala,8.9,76.6,75,45,126,6.1,74.9,2.91
+Kollam_Kerala,Kollam,Kerala,8.9,76.6,72,41,118,6.11,75.9,3.16
+Idukki_Kerala,Idukki,Kerala,9.9,77.1,84,51,132,5.43,82.4,3.81
+Idukki_Kerala,Idukki,Kerala,9.9,77.1,93,47,132,5.42,86.1,3.78
+Idukki_Kerala,Idukki,Kerala,9.9,77.1,87,46,142,5.64,84.0,3.76
+Idukki_Kerala,Idukki,Kerala,9.9,77.1,88,45,141,5.34,86.8,3.83
+Idukki_Kerala,Idukki,Kerala,9.9,77.1,89,49,142,5.62,81.4,3.74
+Varanasi_Uttar_Pradesh,Varanasi,Uttar Pradesh,25.3,83.0,76,41,118,7.71,54.4,1.83
+Varanasi_Uttar_Pradesh,Varanasi,Uttar Pradesh,25.3,83.0,84,43,111,7.81,56.8,1.91
+Varanasi_Uttar_Pradesh,Varanasi,Uttar Pradesh,25.3,83.0,81,39,124,7.83,55.7,1.96
+Varanasi_Uttar_Pradesh,Varanasi,Uttar Pradesh,25.3,83.0,79,40,121,7.67,53.6,1.95
+Varanasi_Uttar_Pradesh,Varanasi,Uttar Pradesh,25.3,83.0,81,37,105,7.77,56.3,2.14
+Agra_Uttar_Pradesh,Agra,Uttar Pradesh,27.2,78.0,79,35,99,8.14,43.3,1.54
+Agra_Uttar_Pradesh,Agra,Uttar Pradesh,27.2,78.0,65,33,98,8.18,42.2,1.52
+Agra_Uttar_Pradesh,Agra,Uttar Pradesh,27.2,78.0,66,37,107,7.87,41.1,1.79
+Agra_Uttar_Pradesh,Agra,Uttar Pradesh,27.2,78.0,64,35,116,8.17,46.4,1.83
+Agra_Uttar_Pradesh,Agra,Uttar Pradesh,27.2,78.0,64,37,112,8.11,41.0,1.81
+Lucknow_Uttar_Pradesh,Lucknow,Uttar Pradesh,26.8,80.9,78,40,116,7.48,62.7,2.14
+Lucknow_Uttar_Pradesh,Lucknow,Uttar Pradesh,26.8,80.9,83,40,126,7.44,54.1,2.23
+Lucknow_Uttar_Pradesh,Lucknow,Uttar Pradesh,26.8,80.9,74,46,129,7.68,53.9,2.25
+Lucknow_Uttar_Pradesh,Lucknow,Uttar Pradesh,26.8,80.9,77,43,126,7.63,54.3,2.39
+Lucknow_Uttar_Pradesh,Lucknow,Uttar Pradesh,26.8,80.9,84,39,122,7.56,54.7,2.08
+Meerut_Uttar_Pradesh,Meerut,Uttar Pradesh,29.0,77.7,82,49,116,7.86,64.1,2.38
+Meerut_Uttar_Pradesh,Meerut,Uttar Pradesh,29.0,77.7,84,47,131,7.67,60.6,2.12
+Meerut_Uttar_Pradesh,Meerut,Uttar Pradesh,29.0,77.7,85,45,112,7.86,61.2,2.22
+Meerut_Uttar_Pradesh,Meerut,Uttar Pradesh,29.0,77.7,89,45,123,7.62,59.2,2.38
+Meerut_Uttar_Pradesh,Meerut,Uttar Pradesh,29.0,77.7,75,47,112,7.77,57.6,2.29
+Gorakhpur_Uttar_Pradesh,Gorakhpur,Uttar Pradesh,26.7,83.4,79,44,102,7.35,66.1,2.29
+Gorakhpur_Uttar_Pradesh,Gorakhpur,Uttar Pradesh,26.7,83.4,72,43,118,7.55,66.3,2.03
+Gorakhpur_Uttar_Pradesh,Gorakhpur,Uttar Pradesh,26.7,83.4,68,42,121,7.21,61.1,1.98
+Gorakhpur_Uttar_Pradesh,Gorakhpur,Uttar Pradesh,26.7,83.4,79,44,114,7.54,60.1,2.06
+Gorakhpur_Uttar_Pradesh,Gorakhpur,Uttar Pradesh,26.7,83.4,80,38,106,7.48,59.1,1.93
+Indore_Madhya_Pradesh,Indore,Madhya Pradesh,22.7,75.9,64,38,113,7.48,47.4,1.96
+Indore_Madhya_Pradesh,Indore,Madhya Pradesh,22.7,75.9,68,39,111,7.19,47.6,2.08
+Indore_Madhya_Pradesh,Indore,Madhya Pradesh,22.7,75.9,76,38,110,7.3,46.8,1.77
+Indore_Madhya_Pradesh,Indore,Madhya Pradesh,22.7,75.9,65,34,112,7.14,44.4,2.04
+Indore_Madhya_Pradesh,Indore,Madhya Pradesh,22.7,75.9,76,34,114,7.4,52.8,1.94
+Bhopal_Madhya_Pradesh,Bhopal,Madhya Pradesh,23.3,77.4,65,36,100,7.29,43.0,1.96
+Bhopal_Madhya_Pradesh,Bhopal,Madhya Pradesh,23.3,77.4,75,33,90,7.51,50.6,1.88
+Bhopal_Madhya_Pradesh,Bhopal,Madhya Pradesh,23.3,77.4,62,31,99,7.37,49.1,1.96
+Bhopal_Madhya_Pradesh,Bhopal,Madhya Pradesh,23.3,77.4,65,37,94,7.32,47.4,1.67
+Bhopal_Madhya_Pradesh,Bhopal,Madhya Pradesh,23.3,77.4,67,36,99,7.42,45.3,1.78
+Jabalpur_Madhya_Pradesh,Jabalpur,Madhya Pradesh,23.2,79.9,76,43,104,7.04,56.0,2.02
+Jabalpur_Madhya_Pradesh,Jabalpur,Madhya Pradesh,23.2,79.9,77,41,103,7.4,50.7,1.98
+Jabalpur_Madhya_Pradesh,Jabalpur,Madhya Pradesh,23.2,79.9,67,41,113,7.02,52.4,1.83
+Jabalpur_Madhya_Pradesh,Jabalpur,Madhya Pradesh,23.2,79.9,68,40,105,7.1,53.2,1.93
+Jabalpur_Madhya_Pradesh,Jabalpur,Madhya Pradesh,23.2,79.9,72,42,103,7.15,54.7,2.15
+Gwalior_Madhya_Pradesh,Gwalior,Madhya Pradesh,26.2,78.2,65,38,96,7.8,43.4,1.57
+Gwalior_Madhya_Pradesh,Gwalior,Madhya Pradesh,26.2,78.2,75,40,93,7.7,46.2,1.74
+Gwalior_Madhya_Pradesh,Gwalior,Madhya Pradesh,26.2,78.2,66,40,96,7.92,46.4,1.46
+Gwalior_Madhya_Pradesh,Gwalior,Madhya Pradesh,26.2,78.2,63,34,101,7.87,37.3,1.73
+Gwalior_Madhya_Pradesh,Gwalior,Madhya Pradesh,26.2,78.2,74,35,97,7.89,45.9,1.73
+Ujjain_Madhya_Pradesh,Ujjain,Madhya Pradesh,23.2,75.8,65,33,98,7.32,48.2,1.74
+Ujjain_Madhya_Pradesh,Ujjain,Madhya Pradesh,23.2,75.8,68,35,91,7.52,43.5,1.53
+Ujjain_Madhya_Pradesh,Ujjain,Madhya Pradesh,23.2,75.8,66,37,104,7.57,43.2,1.7
+Ujjain_Madhya_Pradesh,Ujjain,Madhya Pradesh,23.2,75.8,71,33,107,7.53,43.7,1.75
+Ujjain_Madhya_Pradesh,Ujjain,Madhya Pradesh,23.2,75.8,65,36,102,7.44,42.4,1.63
+Jaipur_Rajasthan,Jaipur,Rajasthan,26.9,75.8,60,30,88,8.14,25.4,1.16
+Jaipur_Rajasthan,Jaipur,Rajasthan,26.9,75.8,59,31,89,8.16,28.9,1.32
+Jaipur_Rajasthan,Jaipur,Rajasthan,26.9,75.8,57,28,84,8.36,29.4,1.26
+Jaipur_Rajasthan,Jaipur,Rajasthan,26.9,75.8,55,24,75,8.08,26.4,1.01
+Jaipur_Rajasthan,Jaipur,Rajasthan,26.9,75.8,55,31,76,8.19,32.2,1.16
+Jodhpur_Rajasthan,Jodhpur,Rajasthan,26.3,73.0,46,25,60,8.48,21.3,0.74
+Jodhpur_Rajasthan,Jodhpur,Rajasthan,26.3,73.0,45,20,71,8.62,20.8,0.82
+Jodhpur_Rajasthan,Jodhpur,Rajasthan,26.3,73.0,46,22,62,8.49,22.4,0.72
+Jodhpur_Rajasthan,Jodhpur,Rajasthan,26.3,73.0,43,24,58,8.6,22.5,0.85
+Jodhpur_Rajasthan,Jodhpur,Rajasthan,26.3,73.0,44,19,58,8.52,17.6,0.96
+Bikaner_Rajasthan,Bikaner,Rajasthan,28.0,73.3,36,17,51,8.76,19.7,0.86
+Bikaner_Rajasthan,Bikaner,Rajasthan,28.0,73.3,35,15,65,8.47,20.8,0.98
+Bikaner_Rajasthan,Bikaner,Rajasthan,28.0,73.3,39,22,60,8.69,20.5,0.9
+Bikaner_Rajasthan,Bikaner,Rajasthan,28.0,73.3,32,21,53,8.69,16.4,0.87
+Bikaner_Rajasthan,Bikaner,Rajasthan,28.0,73.3,46,23,66,8.78,19.5,0.87
+Kota_Rajasthan,Kota,Rajasthan,25.2,75.8,66,32,80,8.06,40.4,1.24
+Kota_Rajasthan,Kota,Rajasthan,25.2,75.8,65,31,95,8.06,42.4,1.43
+Kota_Rajasthan,Kota,Rajasthan,25.2,75.8,66,31,85,7.89,41.0,1.4
+Kota_Rajasthan,Kota,Rajasthan,25.2,75.8,54,27,83,8.02,41.8,1.59
+Kota_Rajasthan,Kota,Rajasthan,25.2,75.8,69,27,94,8.08,42.9,1.51
+Ajmer_Rajasthan,Ajmer,Rajasthan,26.5,74.6,64,25,76,7.97,29.0,1.46
+Ajmer_Rajasthan,Ajmer,Rajasthan,26.5,74.6,61,33,85,8.21,27.2,1.2
+Ajmer_Rajasthan,Ajmer,Rajasthan,26.5,74.6,51,34,94,7.9,31.9,1.24
+Ajmer_Rajasthan,Ajmer,Rajasthan,26.5,74.6,60,32,92,7.9,29.0,1.18
+Ajmer_Rajasthan,Ajmer,Rajasthan,26.5,74.6,60,26,89,8.16,27.6,1.24
+Patna_Bihar,Patna,Bihar,25.6,85.1,74,39,110,7.62,59.6,2.18
+Patna_Bihar,Patna,Bihar,25.6,85.1,76,44,118,7.56,58.4,2.03
+Patna_Bihar,Patna,Bihar,25.6,85.1,84,42,105,7.54,61.8,2.37
+Patna_Bihar,Patna,Bihar,25.6,85.1,70,37,124,7.35,57.8,2.18
+Patna_Bihar,Patna,Bihar,25.6,85.1,83,43,111,7.4,62.7,2.33
+Gaya_Bihar,Gaya,Bihar,24.8,85.0,75,38,98,7.62,59.1,1.99
+Gaya_Bihar,Gaya,Bihar,24.8,85.0,77,34,107,7.66,58.8,1.86
+Gaya_Bihar,Gaya,Bihar,24.8,85.0,71,40,111,7.72,57.8,2.06
+Gaya_Bihar,Gaya,Bihar,24.8,85.0,70,36,99,7.53,53.3,1.91
+Gaya_Bihar,Gaya,Bihar,24.8,85.0,74,36,104,7.68,60.4,2.06
+Muzaffarpur_Bihar,Muzaffarpur,Bihar,26.1,85.4,74,40,111,7.24,64.2,2.47
+Muzaffarpur_Bihar,Muzaffarpur,Bihar,26.1,85.4,86,48,110,7.49,69.7,2.29
+Muzaffarpur_Bihar,Muzaffarpur,Bihar,26.1,85.4,73,48,117,7.26,61.7,2.3
+Muzaffarpur_Bihar,Muzaffarpur,Bihar,26.1,85.4,79,47,123,7.32,68.0,2.37
+Muzaffarpur_Bihar,Muzaffarpur,Bihar,26.1,85.4,84,46,121,7.29,63.9,2.34
+Bhagalpur_Bihar,Bhagalpur,Bihar,25.2,87.0,74,41,104,7.43,62.4,2.24
+Bhagalpur_Bihar,Bhagalpur,Bihar,25.2,87.0,69,43,114,7.15,58.1,2.03
+Bhagalpur_Bihar,Bhagalpur,Bihar,25.2,87.0,79,37,116,7.27,61.2,1.91
+Bhagalpur_Bihar,Bhagalpur,Bihar,25.2,87.0,75,41,105,7.35,59.4,2.19
+Bhagalpur_Bihar,Bhagalpur,Bihar,25.2,87.0,77,42,104,7.43,61.2,2.28
+Darbhanga_Bihar,Darbhanga,Bihar,26.2,85.9,79,44,118,7.14,66.3,2.38
+Darbhanga_Bihar,Darbhanga,Bihar,26.2,85.9,80,44,112,7.13,61.3,2.16
+Darbhanga_Bihar,Darbhanga,Bihar,26.2,85.9,70,44,114,7.31,68.6,2.1
+Darbhanga_Bihar,Darbhanga,Bihar,26.2,85.9,79,41,114,7.07,64.6,2.34
+Darbhanga_Bihar,Darbhanga,Bihar,26.2,85.9,79,42,109,7.39,60.8,2.13
+Khurda_Odisha,Khurda,Odisha,20.2,85.8,77,43,116,6.69,68.3,2.37
+Khurda_Odisha,Khurda,Odisha,20.2,85.8,77,36,111,7.0,60.3,2.24
+Khurda_Odisha,Khurda,Odisha,20.2,85.8,80,44,120,6.6,64.4,2.35
+Khurda_Odisha,Khurda,Odisha,20.2,85.8,82,44,113,6.75,63.6,2.2
+Khurda_Odisha,Khurda,Odisha,20.2,85.8,82,43,113,6.94,60.5,2.24
+Cuttack_Odisha,Cuttack,Odisha,20.5,85.9,75,42,107,7.05,71.7,2.49
+Cuttack_Odisha,Cuttack,Odisha,20.5,85.9,85,45,117,6.82,67.2,2.49
+Cuttack_Odisha,Cuttack,Odisha,20.5,85.9,76,41,122,6.87,65.5,2.57
+Cuttack_Odisha,Cuttack,Odisha,20.5,85.9,71,38,107,6.76,63.2,2.58
+Cuttack_Odisha,Cuttack,Odisha,20.5,85.9,72,39,111,6.81,69.2,2.58
+Sambalpur_Odisha,Sambalpur,Odisha,21.5,83.9,63,38,108,7.0,61.5,2.02
+Sambalpur_Odisha,Sambalpur,Odisha,21.5,83.9,69,42,114,6.96,62.1,1.95
+Sambalpur_Odisha,Sambalpur,Odisha,21.5,83.9,63,40,112,6.9,62.8,2.26
+Sambalpur_Odisha,Sambalpur,Odisha,21.5,83.9,74,42,104,6.86,61.6,1.94
+Sambalpur_Odisha,Sambalpur,Odisha,21.5,83.9,75,42,114,6.83,59.0,1.99
+Koraput_Odisha,Koraput,Odisha,18.8,82.7,60,36,105,6.49,73.6,2.44
+Koraput_Odisha,Koraput,Odisha,18.8,82.7,60,32,107,6.56,73.8,2.5
+Koraput_Odisha,Koraput,Odisha,18.8,82.7,62,32,98,6.39,69.5,2.75
+Koraput_Odisha,Koraput,Odisha,18.8,82.7,60,39,108,6.69,66.9,2.45
+Koraput_Odisha,Koraput,Odisha,18.8,82.7,75,34,95,6.48,65.4,2.5
+Mayurbhanj_Odisha,Mayurbhanj,Odisha,21.9,86.7,67,38,105,6.56,67.9,2.39
+Mayurbhanj_Odisha,Mayurbhanj,Odisha,21.9,86.7,77,40,109,6.51,61.7,2.27
+Mayurbhanj_Odisha,Mayurbhanj,Odisha,21.9,86.7,77,44,104,6.69,67.3,2.4
+Mayurbhanj_Odisha,Mayurbhanj,Odisha,21.9,86.7,64,42,116,6.85,68.6,2.35
+Mayurbhanj_Odisha,Mayurbhanj,Odisha,21.9,86.7,79,41,112,6.82,68.2,2.32
+Nadia_West_Bengal,Nadia,West Bengal,23.5,88.5,85,47,129,6.53,67.6,2.67
+Nadia_West_Bengal,Nadia,West Bengal,23.5,88.5,74,43,110,6.49,76.1,2.4
+Nadia_West_Bengal,Nadia,West Bengal,23.5,88.5,75,44,122,6.6,73.0,2.63
+Nadia_West_Bengal,Nadia,West Bengal,23.5,88.5,84,47,124,6.65,73.0,2.74
+Nadia_West_Bengal,Nadia,West Bengal,23.5,88.5,79,48,110,6.65,73.9,2.67
+Bardhaman_West_Bengal,Bardhaman,West Bengal,23.2,87.9,89,49,113,6.63,66.3,2.31
+Bardhaman_West_Bengal,Bardhaman,West Bengal,23.2,87.9,74,47,115,6.7,68.6,2.52
+Bardhaman_West_Bengal,Bardhaman,West Bengal,23.2,87.9,88,47,123,6.59,71.9,2.46
+Bardhaman_West_Bengal,Bardhaman,West Bengal,23.2,87.9,83,45,131,6.56,70.1,2.59
+Bardhaman_West_Bengal,Bardhaman,West Bengal,23.2,87.9,78,43,127,6.61,70.9,2.44
+Murshidabad_West_Bengal,Murshidabad,West Bengal,24.2,88.3,75,40,121,6.97,69.8,2.3
+Murshidabad_West_Bengal,Murshidabad,West Bengal,24.2,88.3,71,41,116,6.66,64.6,2.27
+Murshidabad_West_Bengal,Murshidabad,West Bengal,24.2,88.3,71,44,118,6.79,65.0,2.21
+Murshidabad_West_Bengal,Murshidabad,West Bengal,24.2,88.3,76,37,119,6.63,63.8,2.25
+Murshidabad_West_Bengal,Murshidabad,West Bengal,24.2,88.3,78,45,118,6.7,68.2,2.6
+Hooghly_West_Bengal,Hooghly,West Bengal,22.9,88.4,81,39,124,6.55,67.7,2.55
+Hooghly_West_Bengal,Hooghly,West Bengal,22.9,88.4,81,48,117,6.31,69.8,2.42
+Hooghly_West_Bengal,Hooghly,West Bengal,22.9,88.4,83,47,119,6.6,70.9,2.45
+Hooghly_West_Bengal,Hooghly,West Bengal,22.9,88.4,84,45,108,6.57,70.3,2.56
+Hooghly_West_Bengal,Hooghly,West Bengal,22.9,88.4,76,42,110,6.6,73.8,2.74
+Jalpaiguri_West_Bengal,Jalpaiguri,West Bengal,26.5,88.7,84,49,130,6.32,85.0,3.19
+Jalpaiguri_West_Bengal,Jalpaiguri,West Bengal,26.5,88.7,81,47,125,6.19,76.4,3.0
+Jalpaiguri_West_Bengal,Jalpaiguri,West Bengal,26.5,88.7,78,52,125,6.12,82.6,2.9
+Jalpaiguri_West_Bengal,Jalpaiguri,West Bengal,26.5,88.7,90,44,137,6.03,80.9,2.91
+Jalpaiguri_West_Bengal,Jalpaiguri,West Bengal,26.5,88.7,89,47,136,6.33,83.9,2.82
+Nizamabad_Telangana,Nizamabad,Telangana,18.7,78.1,65,42,113,7.1,50.7,2.27
+Nizamabad_Telangana,Nizamabad,Telangana,18.7,78.1,64,37,116,6.84,51.4,1.9
+Nizamabad_Telangana,Nizamabad,Telangana,18.7,78.1,70,43,107,7.02,52.5,2.03
+Nizamabad_Telangana,Nizamabad,Telangana,18.7,78.1,69,40,110,6.8,58.3,2.3
+Nizamabad_Telangana,Nizamabad,Telangana,18.7,78.1,70,44,107,6.97,56.7,1.95
+Warangal_Telangana,Warangal,Telangana,18.0,79.6,79,42,112,7.26,61.9,2.13
+Warangal_Telangana,Warangal,Telangana,18.0,79.6,80,42,102,7.3,58.1,2.22
+Warangal_Telangana,Warangal,Telangana,18.0,79.6,75,37,113,7.15,61.6,2.21
+Warangal_Telangana,Warangal,Telangana,18.0,79.6,75,42,117,7.06,57.8,2.26
+Warangal_Telangana,Warangal,Telangana,18.0,79.6,78,43,114,6.93,53.4,2.31
+Karimnagar_Telangana,Karimnagar,Telangana,18.4,79.1,70,34,108,7.36,49.9,2.16
+Karimnagar_Telangana,Karimnagar,Telangana,18.4,79.1,74,34,102,7.22,55.8,2.17
+Karimnagar_Telangana,Karimnagar,Telangana,18.4,79.1,72,42,98,7.18,49.7,1.86
+Karimnagar_Telangana,Karimnagar,Telangana,18.4,79.1,69,37,102,7.25,51.3,1.81
+Karimnagar_Telangana,Karimnagar,Telangana,18.4,79.1,64,37,105,7.39,54.4,1.99
+Khammam_Telangana,Khammam,Telangana,17.2,80.1,70,41,112,6.76,61.5,2.39
+Khammam_Telangana,Khammam,Telangana,17.2,80.1,79,48,117,6.83,64.6,2.52
+Khammam_Telangana,Khammam,Telangana,17.2,80.1,75,45,108,7.03,59.7,2.39
+Khammam_Telangana,Khammam,Telangana,17.2,80.1,77,39,107,6.89,66.6,2.54
+Khammam_Telangana,Khammam,Telangana,17.2,80.1,81,46,111,6.78,64.3,2.4
+Nalgonda_Telangana,Nalgonda,Telangana,17.1,79.3,73,38,97,7.14,44.3,1.94
+Nalgonda_Telangana,Nalgonda,Telangana,17.1,79.3,72,35,94,7.36,52.6,1.83
+Nalgonda_Telangana,Nalgonda,Telangana,17.1,79.3,75,32,106,7.23,47.3,1.62
+Nalgonda_Telangana,Nalgonda,Telangana,17.1,79.3,61,31,99,7.29,47.5,1.81
+Nalgonda_Telangana,Nalgonda,Telangana,17.1,79.3,68,33,109,7.3,48.7,1.71

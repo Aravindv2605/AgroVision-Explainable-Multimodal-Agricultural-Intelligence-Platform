@@ -1,0 +1,63 @@
+project:
+  name: AgroVision
+  version: "1.0.0"
+
+paths:
+  raw_data: data/raw/
+  processed_data: data/processed/
+  satellite_data: data/satellite/
+  model_artifacts: outputs/models/
+  reports: outputs/reports/
+
+data:
+  soil_file: soil_data.csv
+  climate_file: climate_data.csv
+  market_file: market_prices.csv
+  target_column: crop_label
+  test_size: 0.2
+  random_seed: 42
+
+features:
+  soil_cols: [N, P, K, pH, moisture, organic_matter]
+  climate_cols: [rainfall_mm, temp_max, temp_min, humidity, solar_radiation]
+  market_cols: [price_per_quintal, demand_index]
+  ndvi_cols: [ndvi_mean, ndvi_std, ndvi_trend]
+  lag_periods: [7, 14, 30]
+
+xgboost:
+  n_estimators: 300
+  max_depth: 6
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+  use_label_encoder: false
+  eval_metric: mlogloss
+
+lstm:
+  sequence_length: 12       # 12 months lookback
+  hidden_units: 128
+  dropout_rate: 0.2
+  epochs: 50
+  batch_size: 32
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  top_k_crops: 5
+
+crops:
+  - rice
+  - wheat
+  - maize
+  - sugarcane
+  - cotton
+  - soybean
+  - groundnut
+  - tomato
+  - onion
+  - potato
+  - turmeric
+  - banana
+  - mango
+  - coconut
+  - black_gram

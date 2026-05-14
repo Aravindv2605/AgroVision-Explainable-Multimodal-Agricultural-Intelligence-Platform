@@ -1,0 +1,37 @@
+{
+  "classes": [
+    "banana",
+    "black_gram",
+    "coconut",
+    "cotton",
+    "groundnut",
+    "maize",
+    "onion",
+    "rice",
+    "soybean",
+    "sugarcane",
+    "turmeric",
+    "wheat"
+  ],
+  "n_features": 18,
+  "feature_cols": [
+    "N",
+    "P",
+    "K",
+    "pH",
+    "moisture",
+    "organic_matter",
+    "temp_max",
+    "temp_min",
+    "humidity",
+    "solar_radiation",
+    "ndvi_mean",
+    "ndvi_std",
+    "ndvi_trend",
+    "water_stress_index",
+    "fertility_score",
+    "pH_suitability",
+    "moisture_availability",
+    "agri_potential"
+  ]
+}
