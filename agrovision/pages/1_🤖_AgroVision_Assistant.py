@@ -27,100 +27,9 @@ st.set_page_config(
     layout="wide",
 )
 
-# ── Custom CSS ─────────────────────────────────────────────────────────────
-st.markdown("""
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-  * { font-family: 'Inter', sans-serif; }
+from styles import inject_custom_css
+inject_custom_css()
 
-  .stApp { background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%); }
-
-  /* Sidebar */
-  [data-testid="stSidebar"] { background-color: #1b5e20 !important; }
-  [data-testid="stSidebar"] * { color: #ffffff !important; }
-
-  /* Header */
-  .assistant-header {
-    background: linear-gradient(135deg, #1b5e20, #2e7d32, #388e3c);
-    border-radius: 16px; padding: 24px 32px; margin-bottom: 20px;
-    box-shadow: 0 8px 32px rgba(27,94,32,0.3);
-  }
-  .assistant-header h1 { color: #ffffff !important; font-size: 2rem; font-weight: 700; margin: 0; }
-  .assistant-header p  { color: #c8e6c9 !important; margin: 4px 0 0; font-size: 1.05rem; }
-
-  /* Chat bubbles */
-  .msg-user {
-    background: #2e7d32; color: white; border-radius: 18px 18px 4px 18px;
-    padding: 12px 18px; margin: 8px 0; max-width: 80%; float: right; clear: both;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  }
-  .msg-ai {
-    background: #ffffff; color: #1a1a1a; border-radius: 18px 18px 18px 4px;
-    padding: 12px 18px; margin: 8px 0; max-width: 85%; float: left; clear: both;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.10); border-left: 4px solid #2e7d32;
-  }
-  .chat-clear { clear: both; }
-
-  /* Tab styling */
-  .stTabs [data-baseweb="tab"] {
-    font-weight: 600; font-size: 0.95rem; padding: 10px 20px;
-    color: #2e7d32 !important;
-  }
-  .stTabs [aria-selected="true"] {
-    background: #2e7d32 !important; color: white !important;
-    border-radius: 8px 8px 0 0;
-  }
-
-  /* Cards */
-  .info-card {
-    background: #ffffff; border-radius: 14px; padding: 20px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.08); border-top: 4px solid #2e7d32;
-    margin-bottom: 16px;
-  }
-
-  /* Weather card */
-  .weather-card {
-    background: linear-gradient(135deg, #0277bd, #01579b);
-    border-radius: 14px; padding: 16px; color: white;
-    box-shadow: 0 4px 16px rgba(2,119,189,0.3); margin-bottom: 12px;
-  }
-  .weather-card * { color: white !important; }
-
-  /* Alert pills */
-  .alert-pill {
-    background: #fff3e0; border-left: 4px solid #f57c00;
-    border-radius: 8px; padding: 8px 14px; margin: 6px 0;
-    font-size: 0.9rem; color: #333;
-  }
-
-  /* Quick action buttons */
-  .stButton > button {
-    background: linear-gradient(135deg, #2e7d32, #388e3c) !important;
-    color: white !important; border: none !important;
-    border-radius: 10px !important; font-weight: 600 !important;
-    transition: all 0.2s ease !important;
-  }
-  .stButton > button:hover {
-    background: linear-gradient(135deg, #1b5e20, #2e7d32) !important;
-    transform: translateY(-1px); box-shadow: 0 4px 12px rgba(27,94,32,0.4) !important;
-  }
-
-  /* Mode badge */
-  .mode-badge {
-    display: inline-block; background: #e8f5e9; color: #2e7d32;
-    border: 1px solid #a5d6a7; border-radius: 20px;
-    padding: 2px 10px; font-size: 0.78rem; font-weight: 600;
-  }
-
-  /* Input area */
-  .stTextArea textarea { border-radius: 12px !important; border-color: #a5d6a7 !important; }
-  .stFileUploader { border-radius: 12px !important; }
-
-  /* Metrics */
-  [data-testid="stMetricValue"] { color: #1b5e20 !important; font-size: 1.4rem !important; }
-  [data-testid="stMetricLabel"] { color: #4a4a4a !important; }
-</style>
-""", unsafe_allow_html=True)
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────
@@ -181,12 +90,24 @@ def render_chat_messages():
     for msg in st.session_state.messages:
         if msg["role"] == "user":
             st.markdown(
-                f'<div class="msg-user">🧑‍🌾 {msg["content"]}</div><div class="chat-clear"></div>',
+                f'''
+                <div class="msg-container">
+                    <div class="msg-user-box">
+                        <div class="msg-content">🧑‍🌾 {msg["content"]}</div>
+                    </div>
+                </div>
+                ''',
                 unsafe_allow_html=True,
             )
         else:
             st.markdown(
-                f'<div class="msg-ai">🤖 {msg["content"]}</div><div class="chat-clear"></div>',
+                f'''
+                <div class="msg-container">
+                    <div class="msg-ai-box">
+                        <div class="msg-content">🤖 {msg["content"]}</div>
+                    </div>
+                </div>
+                ''',
                 unsafe_allow_html=True,
             )
 
@@ -224,9 +145,9 @@ st.markdown("""
 
 # ── Sidebar ────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 🤖 Assistant Settings")
+    st.markdown("## ⚙️ Assistant Settings")
 
-    st.markdown("### 🌾 Crop Context")
+    st.markdown("### 🛰️ Crop Context")
     crop_ctx = st.text_input(
         "Predicted crop (from predictor)",
         value=st.session_state.crop_context,
@@ -393,7 +314,7 @@ with tab_disease:
             key="disease_upload",
         )
         if disease_img:
-            st.image(disease_img, caption="Uploaded Plant Image", use_container_width=True)
+            st.image(disease_img, caption="Uploaded Plant Image", use_column_width=True)
             analyze_btn = st.button("🔬 Analyze Disease", type="primary", use_container_width=True)
 
             if analyze_btn:
@@ -401,7 +322,7 @@ with tab_disease:
                     result = api_disease(disease_img.read())
 
                 with col_result:
-                    st.markdown('<div class="info-card">', unsafe_allow_html=True)
+                    st.markdown('<div class="glass-card">', unsafe_allow_html=True)
                     st.markdown("#### 🔍 Analysis Result")
                     if result.get("mode"):
                         st.markdown(f'<span class="mode-badge">Mode: {result["mode"]}</span>', unsafe_allow_html=True)
@@ -415,7 +336,7 @@ with tab_disease:
                             st.audio(audio, format="audio/mp3")
         else:
             with col_result:
-                st.markdown('<div class="info-card">', unsafe_allow_html=True)
+                st.markdown('<div class="glass-card">', unsafe_allow_html=True)
                 st.markdown("""
 #### 🔬 How it works
 
@@ -448,7 +369,7 @@ with tab_advisor:
     col_form, col_advice = st.columns([1, 1.3])
 
     with col_form:
-        st.markdown('<div class="info-card">', unsafe_allow_html=True)
+        st.markdown('<div class="glass-card">', unsafe_allow_html=True)
         st.markdown("#### Enter Crop Details")
 
         CROPS = [
@@ -500,7 +421,7 @@ with tab_advisor:
             else:
                 st.warning("Could not generate advisory. Is the API running?")
         else:
-            st.markdown('<div class="info-card">', unsafe_allow_html=True)
+            st.markdown('<div class="glass-card">', unsafe_allow_html=True)
             st.markdown("""
 #### 📚 What you'll get
 
@@ -527,7 +448,7 @@ with tab_voice:
     col_v1, col_v2 = st.columns([1, 1])
 
     with col_v1:
-        st.markdown('<div class="info-card">', unsafe_allow_html=True)
+        st.markdown('<div class="glass-card">', unsafe_allow_html=True)
         st.markdown("#### 🎙️ Voice Input")
         st.info(
             "Click the microphone below to record your farming question. "
@@ -583,7 +504,7 @@ with tab_voice:
         st.markdown('</div>', unsafe_allow_html=True)
 
     with col_v2:
-        st.markdown('<div class="info-card">', unsafe_allow_html=True)
+        st.markdown('<div class="glass-card">', unsafe_allow_html=True)
         st.markdown("#### 🔊 Text-to-Speech Test")
         st.markdown("Type any farming text below to hear it spoken aloud:")
         tts_test_text = st.text_area(

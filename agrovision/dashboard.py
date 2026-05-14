@@ -22,82 +22,9 @@ st.set_page_config(
 )
 
 # ── Custom CSS ─────────────────────────────────────────────────────────────
-st.markdown("""
-<style>
-    /* Background - Nature Green */
-    .stApp { background-color: #e8f5e9; }
-    .main  { background-color: #e8f5e9; }
+from styles import inject_custom_css
+inject_custom_css()
 
-    /* All main text - Black */
-    .stMarkdown, p, label, h1, h2, h3, h4, h5, h6 {
-        color: #000000 !important;
-    }
-
-    /* Header visibility for Deploy and Menu */
-    [data-testid="stHeader"] {
-        background-color: rgba(232, 245, 233, 0.8) !important;
-    }
-    [data-testid="stHeader"] * {
-        color: #1b5e20 !important;
-    }
-
-    /* Sidebar - Dark Green */
-    [data-testid="stSidebar"] {
-        background-color: #1b5e20 !important;
-    }
-    [data-testid="stSidebar"] * {
-        color: #ffffff !important;
-    }
-
-    /* Crop cards */
-    .crop-card {
-        background: #f1f8e9;
-        border-radius: 12px;
-        padding: 16px;
-        margin: 8px 0;
-        border-left: 5px solid #2e7d32;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-        color: #000000 !important;
-    }
-    .crop-card * { color: #000000 !important; }
-
-    /* Header */
-    .header-title {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: #1b5e20 !important;
-    }
-    .header-sub {
-        font-size: 1.1rem;
-        color: #33691e !important;
-    }
-
-    /* Metric values */
-    [data-testid="stMetricLabel"] { color: #000000 !important; }
-    [data-testid="stMetricValue"] { color: #1b5e20 !important; }
-
-    /* Button */
-    .stButton > button {
-        background-color: #2e7d32 !important;
-        color: white !important;
-        border-radius: 8px;
-        font-weight: 600;
-        border: none;
-    }
-    .stButton > button:hover {
-        background-color: #1b5e20 !important;
-    }
-
-    /* Metric box */
-    .metric-box {
-        background: #f9fbe7;
-        border-radius: 10px;
-        padding: 12px;
-        text-align: center;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-    }
-</style>
-""", unsafe_allow_html=True)
 
 # ── Crop info dictionary ───────────────────────────────────────────────────
 CROP_INFO = {
@@ -191,15 +118,9 @@ def get_explanation(payload):
 
 
 # ── Header ─────────────────────────────────────────────────────────────────
-col_logo, col_title = st.columns([1, 8])
-with col_logo:
-    st.markdown("# 🌾")
-with col_title:
-    st.markdown('<p class="header-title">AgroVision</p>', unsafe_allow_html=True)
-    st.markdown('<p class="header-sub">AI-Powered Smart Crop Recommendation System</p>',
-                unsafe_allow_html=True)
-
-st.divider()
+st.markdown('<h1 class="header-title">AgroVision</h1>', unsafe_allow_html=True)
+st.markdown('<p class="header-sub">Precision Agriculture Intelligence & Profit Optimization</p>', unsafe_allow_html=True)
+st.markdown("<br>", unsafe_allow_html=True)
 
 # ── API status ─────────────────────────────────────────────────────────────
 api_ok = check_api()
@@ -304,51 +225,61 @@ if predict_btn:
         col_cards, col_chart = st.columns([1, 1])
 
         with col_cards:
-            st.markdown("### 🌾 Ranked Crop Recommendations")
-            rank_colors = ["#2e7d32", "#558b2f", "#827717", "#e65100", "#b71c1c"]
+            st.markdown("### 🌾 Performance Ranking")
+            rank_colors = ["#2E7D32", "#43A047", "#66BB6A", "#81C784", "#A5D6A7"]
             for i, rec in enumerate(recs):
                 info = get_crop_info(rec["crop"])
                 color = rank_colors[i] if i < len(rank_colors) else "#555"
                 st.markdown(f"""
-                <div class="crop-card" style="border-left-color:{color}">
-                    <b style="font-size:1.1rem">{info['emoji']} #{rec['rank']} — {rec['crop'].replace('_',' ').title()}</b><br>
-                    <small>
-                    📊 Score: <b>{rec['score']:.3f}</b> &nbsp;|&nbsp;
-                    💰 Profit: <b>{rec['profit_index']:.1%}</b> &nbsp;|&nbsp;
-                    🤖 XGB: <b>{rec['xgb_prob']:.3f}</b><br>
-                    📅 Season: {info['season']} &nbsp;|&nbsp;
-                    💧 Water: {info['water']}<br>
-                    💡 <i>{info['tip']}</i>
-                    </small>
+                <div class="glass-card" style="border-left: 5px solid {color} !important;">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <b style="font-size:1.1rem; color:white;">{info['emoji']} #{rec['rank']} — {rec['crop'].replace('_',' ').title()}</b>
+                        <span style="background: rgba(255,255,255,0.05); padding: 2px 8px; border-radius: 10px; font-size: 0.8rem; color: #4CAF50;">
+                            SCORE: {rec['score']:.3f}
+                        </span>
+                    </div>
+                    <div style="margin-top: 8px; color: #BDBDBD; font-size: 0.9rem;">
+                        💰 Profit Potential: <b style="color:#FFA000">{rec['profit_index']:.1%}</b> &nbsp;|&nbsp;
+                        🤖 XGB Probability: {rec['xgb_prob']:.3f}<br>
+                        📅 Seasonality: {info['season']} &nbsp;|&nbsp;
+                        💧 Water Footprint: {info['water']}
+                    </div>
+                    <div style="background: rgba(255,255,255,0.03); padding: 8px; border-radius: 8px; margin-top: 10px; border-left: 3px solid #4CAF50;">
+                        <i style="color:white;">{info['tip']}</i>
+                    </div>
                 </div>
                 """, unsafe_allow_html=True)
 
         with col_chart:
-            st.markdown("### 📊 Score Comparison")
+            st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+            st.markdown("### 📈 Analytics Overview")
             crops  = [r["crop"].replace("_", " ").title() for r in recs]
             scores = [r["score"] for r in recs]
             profits = [r["profit_index"] for r in recs]
-
+ 
             fig = go.Figure()
-            fig.add_trace(go.Bar(name="AI Score",     x=crops, y=scores,
-                                 marker_color="#2e7d32"))
-            fig.add_trace(go.Bar(name="Profit Index", x=crops, y=profits,
-                                 marker_color="#ff8f00"))
+            fig.add_trace(go.Bar(name="AI Predictor Score", x=crops, y=scores,
+                                 marker_color="#2E7D32", marker_line_color="#4CAF50", marker_line_width=1.5))
+            fig.add_trace(go.Bar(name="Profit Index (Expected)", x=crops, y=profits,
+                                 marker_color="#FFA000", marker_line_color="#FFB300", marker_line_width=1.5))
             fig.update_layout(
+                template='plotly_dark',
                 barmode="group",
                 plot_bgcolor="rgba(0,0,0,0)",
                 paper_bgcolor="rgba(0,0,0,0)",
-                font=dict(color="black", size=12),
-                legend=dict(orientation="h", y=1.1, font=dict(color="black")),
-                margin=dict(t=20, b=20),
-                height=350,
-                xaxis=dict(tickfont=dict(color="black")),
-                yaxis=dict(tickfont=dict(color="black"), gridcolor="#cccccc"),
+                font=dict(color="white", size=12),
+                legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1, font=dict(color="white")),
+                margin=dict(t=50, b=50, l=50, r=50),
+                height=380,
+                xaxis=dict(tickfont=dict(color="white"), gridcolor="rgba(255,255,255,0.05)"),
+                yaxis=dict(tickfont=dict(color="white"), gridcolor="rgba(255,255,255,0.05)"),
             )
             st.plotly_chart(fig, use_container_width=True)
+            st.markdown('</div>', unsafe_allow_html=True)
 
             # Pie chart
-            st.markdown("### 🥧 Score Distribution")
+            st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+            st.markdown("### 🥧 Resource Allocation")
             fig2 = px.pie(
                 values=scores, names=crops,
                 color_discrete_sequence=px.colors.sequential.Greens_r,
@@ -357,17 +288,19 @@ if predict_btn:
             fig2.update_traces(
                 textposition='inside',
                 textinfo='percent+label',
-                insidetextfont=dict(color='black'),
-                outsidetextfont=dict(color='black')
+                insidetextfont=dict(color='white'),
+                outsidetextfont=dict(color='white')
             )
             fig2.update_layout(
-                margin=dict(t=10, b=10), 
-                height=280,
+                template='plotly_dark',
+                margin=dict(t=60, b=20, l=20, r=20), 
+                height=320,
                 paper_bgcolor="rgba(0,0,0,0)",
-                font=dict(color="black"),
-                legend=dict(font=dict(color="black"))
+                font=dict(color="white"),
+                legend=dict(font=dict(color="white"))
             )
             st.plotly_chart(fig2, use_container_width=True)
+            st.markdown('</div>', unsafe_allow_html=True)
 
         # ── SHAP Explanation ───────────────────────────────────────────────
         if explanation:
@@ -413,32 +346,28 @@ if predict_btn:
             st.dataframe(climate_df, hide_index=True, use_container_width=True)
 
 else:
-    # ── Welcome screen ─────────────────────────────────────────────────────
-    st.markdown("## 👋 Welcome to AgroVision!")
-    c1, c2, c3 = st.columns(3)
-    with c1:
+    # ── Landing View ──
+    col_l1, col_l2 = st.columns([1, 1])
+    with col_l1:
+        st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+        st.markdown("### 🚀 Intelligence Suite Standby")
+        st.write("The AgroVision prediction engine is ready to analyze your field data. Select a region and adjust soil parameters to begin.")
         st.markdown("""
-        ### 🌱 What it does
-        - Analyzes your soil data
-        - Considers local climate
-        - Uses satellite NDVI data
-        - Checks market prices
+        - **Real-time Crop Suitability**
+        - **Market Value Projections**
+        - **SHAP Feature Importance**
+        - **Satellite NDVI Integration**
         """)
-    with c2:
-        st.markdown("""
-        ### 🤖 AI Models Used
-        - XGBoost Classifier
-        - LSTM Neural Network
-        - SHAP Explainability
-        - Ensemble Scoring
-        """)
-    with c3:
-        st.markdown("""
-        ### 🚀 How to use
-        1. Fill soil data in sidebar
-        2. Enter climate data
-        3. Click **Get Recommendations**
-        4. See top crops + explanation
-        """)
+        st.markdown('</div>', unsafe_allow_html=True)
+    
+    with col_l2:
+        st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+        st.markdown("### 🛰️ Simulation Ecosystem")
+        st.write("AgroVision integrates multimodal datasets to simulate agricultural outcomes across the Indian subcontinent.")
+        st.info("System Status: Operational • Model: Ensemble XGB-LSTM v2.4")
+        st.markdown('</div>', unsafe_allow_html=True)
 
-    st.info("👈 Fill in the parameters in the sidebar and click **Get Crop Recommendations**!")
+    st.markdown('<div class="glass-card" style="text-align: center; padding: 60px;">', unsafe_allow_html=True)
+    st.markdown("<h2 style='color: #4CAF50; opacity: 0.5;'>Simulation Engine Ready</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='color: #BDBDBD;'>Await input to generate precision roadmap</p>", unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
