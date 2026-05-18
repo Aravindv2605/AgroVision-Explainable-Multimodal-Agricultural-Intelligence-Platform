@@ -117,22 +117,30 @@ def get_explanation(payload):
         return None
 
 
-# ── Header ─────────────────────────────────────────────────────────────────
-st.markdown('<h1 class="header-title">AgroVision</h1>', unsafe_allow_html=True)
-st.markdown('<p class="header-sub">Precision Agriculture Intelligence & Profit Optimization</p>', unsafe_allow_html=True)
-st.markdown("<br>", unsafe_allow_html=True)
-
-# ── API status ─────────────────────────────────────────────────────────────
+# ── API status check early ──────────────────────────────────────────────────
 api_ok = check_api()
-if api_ok:
-    st.success("✅ AI Engine Connected — Ready for predictions!")
-else:
-    st.error("❌ API not running. Please start it: `uvicorn src.api.main:app --reload`")
-    st.stop()
+
+# ── Header (Hero Section) ──────────────────────────────────────────────────
+st.markdown('''
+<div class="hero-container">
+    <div class="hero-content">
+        <h1 class="hero-title">🌾 AgroVision</h1>
+        <p class="hero-subtitle">AI-Powered Explainable Crop Intelligence Platform</p>
+    </div>
+</div>
+''', unsafe_allow_html=True)
 
 # ── Layout: sidebar inputs + main results ─────────────────────────────────
 with st.sidebar:
-    st.markdown("## 📍 Region Details")
+    st.markdown("## ⚙️ Control Center")
+    if api_ok:
+        st.markdown('<div class="status-badge" style="margin-bottom: 15px;">🟢 AI Engine Online</div>', unsafe_allow_html=True)
+    else:
+        st.markdown('<div class="status-badge warning" style="margin-bottom: 15px;">🔴 AI Engine Offline</div>', unsafe_allow_html=True)
+        st.error("❌ API is not running. Please start it: `uvicorn src.api.main:app --reload`")
+        st.stop()
+
+    st.markdown("### 📍 Region Details")
     mapping = load_region_mapping()
     states = sorted(list(mapping.keys()))
     state = st.selectbox("Select State", options=states, index=0)
@@ -142,6 +150,7 @@ with st.sidebar:
 
     # Load district-specific defaults
     defaults = get_district_data(state, district)
+
 
     # Use defaults if available, otherwise fallback to hardcoded
     def_soil = defaults["soil"] if defaults else {}
@@ -259,20 +268,22 @@ if predict_btn:
  
             fig = go.Figure()
             fig.add_trace(go.Bar(name="AI Predictor Score", x=crops, y=scores,
-                                 marker_color="#2E7D32", marker_line_color="#4CAF50", marker_line_width=1.5))
+                                 marker_color="#2E7D32", marker_line_color="#4CAF50", marker_line_width=1.5,
+                                 hovertemplate="AI Score: %{y:.1%}<extra></extra>"))
             fig.add_trace(go.Bar(name="Profit Index (Expected)", x=crops, y=profits,
-                                 marker_color="#FFA000", marker_line_color="#FFB300", marker_line_width=1.5))
+                                 marker_color="#FFA000", marker_line_color="#FFB300", marker_line_width=1.5,
+                                 hovertemplate="Profit Potential: %{y:.1%}<extra></extra>"))
             fig.update_layout(
                 template='plotly_dark',
                 barmode="group",
                 plot_bgcolor="rgba(0,0,0,0)",
                 paper_bgcolor="rgba(0,0,0,0)",
-                font=dict(color="white", size=12),
+                font=dict(color="white", size=12, family="Inter"),
                 legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1, font=dict(color="white")),
                 margin=dict(t=50, b=50, l=50, r=50),
                 height=380,
-                xaxis=dict(tickfont=dict(color="white"), gridcolor="rgba(255,255,255,0.05)"),
-                yaxis=dict(tickfont=dict(color="white"), gridcolor="rgba(255,255,255,0.05)"),
+                xaxis=dict(tickfont=dict(color="white"), gridcolor="rgba(255,255,255,0.08)"),
+                yaxis=dict(tickfont=dict(color="white"), gridcolor="rgba(255,255,255,0.08)"),
             )
             st.plotly_chart(fig, use_container_width=True)
             st.markdown('</div>', unsafe_allow_html=True)
@@ -282,21 +293,22 @@ if predict_btn:
             st.markdown("### 🥧 Resource Allocation")
             fig2 = px.pie(
                 values=scores, names=crops,
-                color_discrete_sequence=px.colors.sequential.Greens_r,
+                color_discrete_sequence=["#1B5E20", "#2E7D32", "#388E3C", "#4CAF50", "#66BB6A", "#81C784", "#A5D6A7"],
                 hole=0.4,
             )
             fig2.update_traces(
                 textposition='inside',
                 textinfo='percent+label',
-                insidetextfont=dict(color='white'),
-                outsidetextfont=dict(color='white')
+                insidetextfont=dict(color='white', size=11, family="Inter"),
+                outsidetextfont=dict(color='white', size=11, family="Inter"),
+                hovertemplate="<b>%{label}</b><br>AI Suitability: %{percent}<extra></extra>"
             )
             fig2.update_layout(
                 template='plotly_dark',
                 margin=dict(t=60, b=20, l=20, r=20), 
                 height=320,
                 paper_bgcolor="rgba(0,0,0,0)",
-                font=dict(color="white"),
+                font=dict(color="white", family="Inter"),
                 legend=dict(font=dict(color="white"))
             )
             st.plotly_chart(fig2, use_container_width=True)
@@ -351,23 +363,28 @@ else:
     with col_l1:
         st.markdown('<div class="glass-card">', unsafe_allow_html=True)
         st.markdown("### 🚀 Intelligence Suite Standby")
-        st.write("The AgroVision prediction engine is ready to analyze your field data. Select a region and adjust soil parameters to begin.")
+        st.write("The AgroVision prediction engine is ready to analyze your field data. Select a region and adjust soil parameters in the sidebar to begin.")
         st.markdown("""
-        - **Real-time Crop Suitability**
-        - **Market Value Projections**
-        - **SHAP Feature Importance**
-        - **Satellite NDVI Integration**
+        - 🌾 **Real-time Crop Suitability Predictions**
+        - 📈 **Market Value & Profitability Index Projections**
+        - 🔍 **SHAP Feature Importance & Multimodal Explanations**
+        - 🛰️ **Satellite NDVI Vegetation Index Analysis**
         """)
         st.markdown('</div>', unsafe_allow_html=True)
     
     with col_l2:
         st.markdown('<div class="glass-card">', unsafe_allow_html=True)
         st.markdown("### 🛰️ Simulation Ecosystem")
-        st.write("AgroVision integrates multimodal datasets to simulate agricultural outcomes across the Indian subcontinent.")
-        st.info("System Status: Operational • Model: Ensemble XGB-LSTM v2.4")
+        st.write("AgroVision integrates deep soil analysis, regional climate data, and satellite imagery datasets to simulate optimal agricultural roadmaps across the subcontinent.")
+        st.markdown('''
+        <div style="background: rgba(76, 175, 80, 0.1); border-left: 4px solid #4CAF50; padding: 14px; border-radius: 8px; margin-top: 15px;">
+            <b style="color: #81C784;">🌱 Core Status:</b> <span style="color: #E0E0E0;">Operational • Active</span><br>
+            <b style="color: #81C784;">🤖 AI Model:</b> <span style="color: #E0E0E0;">Ensemble XGB-LSTM v2.4</span>
+        </div>
+        ''', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
-    st.markdown('<div class="glass-card" style="text-align: center; padding: 60px;">', unsafe_allow_html=True)
-    st.markdown("<h2 style='color: #4CAF50; opacity: 0.5;'>Simulation Engine Ready</h2>", unsafe_allow_html=True)
-    st.markdown("<p style='color: #BDBDBD;'>Await input to generate precision roadmap</p>", unsafe_allow_html=True)
+    st.markdown('<div class="glass-card" style="text-align: center; padding: 60px; border: 1px dashed rgba(76, 175, 80, 0.3) !important;">', unsafe_allow_html=True)
+    st.markdown("<h2 style='color: #4CAF50; margin-bottom: 10px;'>🌾 Simulation Engine Standby</h2>", unsafe_allow_html=True)
+    st.markdown("<p style='color: #BDBDBD; font-size: 1.1rem; max-width: 600px; margin: 0 auto;'>Configure your soil metrics and regional coordinates, then click <b>Get Crop Recommendations</b> in the control panel to launch precision analytics.</p>", unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)

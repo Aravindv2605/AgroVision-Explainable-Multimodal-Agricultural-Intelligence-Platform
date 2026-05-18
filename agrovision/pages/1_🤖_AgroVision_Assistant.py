@@ -134,13 +134,15 @@ if "last_weather" not in st.session_state:
     st.session_state.last_weather = None
 
 
-# ── Header ─────────────────────────────────────────────────────────────────
-st.markdown("""
-<div class="assistant-header">
-  <h1>🤖 AgroVision Assistant</h1>
-  <p>AI-Powered Multimodal Agricultural Companion — Text • Voice • Image</p>
+# ── Header (Hero Section) ──────────────────────────────────────────────────
+st.markdown('''
+<div class="hero-container">
+    <div class="hero-content">
+        <h1 class="hero-title">🤖 AgroVision Assistant</h1>
+        <p class="hero-subtitle">AI-Powered Multimodal Agricultural Companion — Text • Voice • Image</p>
+    </div>
 </div>
-""", unsafe_allow_html=True)
+''', unsafe_allow_html=True)
 
 
 # ── Sidebar ────────────────────────────────────────────────────────────────
@@ -178,17 +180,40 @@ with st.sidebar:
     weather = st.session_state.last_weather
     if weather:
         cur = weather.get("current", {})
+        desc = cur.get('description','').lower()
+        w_emoji = "☀️"
+        if "rain" in desc or "shower" in desc:
+            w_emoji = "🌧️"
+        elif "cloud" in desc or "overcast" in desc:
+            w_emoji = "☁️"
+        elif "mist" in desc or "fog" in desc:
+            w_emoji = "🌫️"
+        elif "snow" in desc or "sleet" in desc:
+            w_emoji = "❄️"
+        
         st.markdown(f"""
-<div class="weather-card">
-  <b>📍 {weather.get('location','—')}</b><br>
-  🌡️ {cur.get('temp_c','—')}°C &nbsp;|&nbsp; 💧 {cur.get('humidity_pct','—')}%<br>
-  🌬️ {cur.get('wind_kph','—')} km/h &nbsp;|&nbsp; 🌧️ {cur.get('rain_mm',0)} mm<br>
-  <small>{cur.get('description','')}</small>
-  <span style="float:right; font-size:0.7rem; opacity:0.8">{weather.get('mode','')}</span>
+<div class="weather-card-premium">
+  <div class="weather-header">
+    <b style="font-size: 1.1rem; color: white;">📍 {weather.get('location','—')}</b>
+    <span style="font-size: 1.3rem;">{w_emoji}</span>
+  </div>
+  <div style="font-size: 0.95rem; margin-bottom: 8px;">
+    🌡️ <b>Temp:</b> {cur.get('temp_c','—')}°C <br>
+    💧 <b>Humidity:</b> {cur.get('humidity_pct','—')}% <br>
+    🌬️ <b>Wind:</b> {cur.get('wind_kph','—')} km/h <br>
+    🌧️ <b>Rain:</b> {cur.get('rain_mm',0)} mm
+  </div>
+  <div style="background: rgba(255,255,255,0.04); padding: 6px 10px; border-radius: 6px; font-size: 0.85rem; border-left: 3px solid #4CAF50;">
+    <i>{cur.get('description','')}</i>
+  </div>
 </div>
 """, unsafe_allow_html=True)
         for alert in weather.get("alerts", []):
-            st.markdown(f'<div class="alert-pill">{alert}</div>', unsafe_allow_html=True)
+            st.markdown(f"""
+<div class="alert-card-premium">
+  <b style="color: #FFA000; font-size: 0.9rem;">⚠️ Alert: {alert}</b>
+</div>
+""", unsafe_allow_html=True)
         with st.expander("🌾 Farming Advice"):
             st.markdown(weather.get("farming_advice", ""))
 
